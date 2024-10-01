@@ -1,0 +1,14 @@
+|Task2
+A => comb.IN1
+A => AD.IN0
+B => BplsC.IN0
+B => B_nplsC.IN0
+B => B_nC.IN0
+C => B_nplsC.IN1
+C => B_nC.IN1
+C => BplsC.IN1
+D => AD.IN1
+X << comb.DB_MAX_OUTPUT_PORT_TYPE
+Y << comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

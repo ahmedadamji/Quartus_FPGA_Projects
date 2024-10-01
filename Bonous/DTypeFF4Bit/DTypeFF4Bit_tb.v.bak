@@ -1,0 +1,8 @@
+`timescale 1ns/10ps
+
+module DTypeFF4bit_tb;
+reg D;
+reg en;
+reg clk;
+reg rst_n;
+wire Q;

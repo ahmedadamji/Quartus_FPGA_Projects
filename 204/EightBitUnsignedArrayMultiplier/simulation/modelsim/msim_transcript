@@ -1,0 +1,75 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do EightBitUnsignedArrayMultiplier_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier {C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/OneBitFullAdder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:43:45 on Feb 22,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier" C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/OneBitFullAdder.v 
+# -- Compiling module OneBitFullAdder
+# 
+# Top level modules:
+# 	OneBitFullAdder
+# End time: 10:43:46 on Feb 22,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier {C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/ArrayCell.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:43:46 on Feb 22,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier" C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/ArrayCell.v 
+# -- Compiling module ArrayCell
+# 
+# Top level modules:
+# 	ArrayCell
+# End time: 10:43:46 on Feb 22,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier {C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:43:46 on Feb 22,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier" C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier.v 
+# -- Compiling module EightBitUnsignedArrayMultiplier
+# 
+# Top level modules:
+# 	EightBitUnsignedArrayMultiplier
+# End time: 10:43:46 on Feb 22,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier {C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:43:46 on Feb 22,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier" C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier_tb.v 
+# -- Compiling module EightBitUnsignedArrayMultiplier_tb
+# 
+# Top level modules:
+# 	EightBitUnsignedArrayMultiplier_tb
+# End time: 10:43:46 on Feb 22,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  EightBitUnsignedArrayMultiplier_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" EightBitUnsignedArrayMultiplier_tb 
+# Start time: 10:43:47 on Feb 22,2019
+# Loading work.EightBitUnsignedArrayMultiplier_tb
+# Loading work.EightBitUnsignedArrayMultiplier
+# Loading work.ArrayCell
+# Loading work.OneBitFullAdder
+# ** Warning: (vsim-3015) C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier_tb.v(14): [PCDPC] - Port size (1) does not match connection size (8) for port 'c_in'. The port definition is at: C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /EightBitUnsignedArrayMultiplier_tb/dut File: C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier_tb.v(47)
+#    Time: 1 us  Iteration: 0  Instance: /EightBitUnsignedArrayMultiplier_tb
+# Break in Module EightBitUnsignedArrayMultiplier_tb at C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier_tb.v line 47
+# End time: 10:45:03 on Feb 22,2019, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 1

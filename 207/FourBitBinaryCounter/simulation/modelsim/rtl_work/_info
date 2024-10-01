@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Temp/QuartusProjects/207/simulation/modelsim
+vFourBitBinaryCounter
+Z1 !s110 1553457986
+!i10b 1
+!s100 8U9kK9V[WK>gPM4g>Zh5d3
+IbjCQ61K<0YYjSQkR9Wo;L2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1553345642
+8C:/Temp/QuartusProjects/207/FourBitBinaryCounter.v
+FC:/Temp/QuartusProjects/207/FourBitBinaryCounter.v
+Z3 L0 19
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1553457986.000000
+!s107 C:/Temp/QuartusProjects/207/FourBitBinaryCounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/207|C:/Temp/QuartusProjects/207/FourBitBinaryCounter.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/207
+Z8 tCvgOpt 0
+n@four@bit@binary@counter
+vFourBitBinaryCounter_tb
+!s110 1553457987
+!i10b 1
+!s100 g4kG_H6DfC=AB0fN1fQ:e1
+IN39m>:?C7:X`IR=jJYd3B3
+R2
+R0
+w1553457576
+8C:/Temp/QuartusProjects/207/FourBitBinaryCounter_tb.v
+FC:/Temp/QuartusProjects/207/FourBitBinaryCounter_tb.v
+L0 21
+R4
+r1
+!s85 0
+31
+!s108 1553457987.000000
+!s107 C:/Temp/QuartusProjects/207/FourBitBinaryCounter_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/207|C:/Temp/QuartusProjects/207/FourBitBinaryCounter_tb.v|
+!i113 1
+R6
+R7
+R8
+n@four@bit@binary@counter_tb
+vJKTypeFF
+R1
+!i10b 1
+!s100 RS3X3POegVmfMF2LZ`S<G3
+I<Z[jWBn1Tn3RB<T>;?g3g2
+R2
+R0
+w1553346819
+8C:/Temp/QuartusProjects/207/JKTypeFF.v
+FC:/Temp/QuartusProjects/207/JKTypeFF.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Temp/QuartusProjects/207/JKTypeFF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/207|C:/Temp/QuartusProjects/207/JKTypeFF.v|
+!i113 1
+R6
+R7
+R8
+n@j@k@type@f@f

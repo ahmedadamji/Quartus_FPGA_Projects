@@ -1,0 +1,566 @@
+Analysis & Synthesis report for ClockDivider
+Mon Mar 25 12:53:15 2019
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Port Connectivity Checks: "DtypeFF:v"
+ 10. Port Connectivity Checks: "DtypeFF:u"
+ 11. Port Connectivity Checks: "DtypeFF:t"
+ 12. Port Connectivity Checks: "DtypeFF:s"
+ 13. Port Connectivity Checks: "DtypeFF:r"
+ 14. Port Connectivity Checks: "DtypeFF:q"
+ 15. Port Connectivity Checks: "DtypeFF:p"
+ 16. Port Connectivity Checks: "DtypeFF:o"
+ 17. Port Connectivity Checks: "DtypeFF:nn"
+ 18. Port Connectivity Checks: "DtypeFF:m"
+ 19. Port Connectivity Checks: "DtypeFF:l"
+ 20. Port Connectivity Checks: "DtypeFF:k"
+ 21. Port Connectivity Checks: "DtypeFF:j"
+ 22. Port Connectivity Checks: "DtypeFF:i"
+ 23. Port Connectivity Checks: "DtypeFF:h"
+ 24. Port Connectivity Checks: "DtypeFF:g"
+ 25. Port Connectivity Checks: "DtypeFF:f"
+ 26. Port Connectivity Checks: "DtypeFF:e"
+ 27. Port Connectivity Checks: "DtypeFF:d"
+ 28. Port Connectivity Checks: "DtypeFF:c"
+ 29. Port Connectivity Checks: "DtypeFF:b"
+ 30. Port Connectivity Checks: "DtypeFF:a"
+ 31. Post-Synthesis Netlist Statistics for Top Partition
+ 32. Elapsed Time Per Partition
+ 33. Analysis & Synthesis Messages
+ 34. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Mon Mar 25 12:53:15 2019       ;
+; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name                      ; ClockDivider                                ;
+; Top-level Entity Name              ; ClockDivider                                ;
+; Family                             ; MAX 10                                      ;
+; Total logic elements               ; 24                                          ;
+;     Total combinational functions  ; 24                                          ;
+;     Dedicated logic registers      ; 22                                          ;
+; Total registers                    ; 22                                          ;
+; Total pins                         ; 5                                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; 10M50DAF484C6GES   ;                    ;
+; Top-level entity name                                                      ; ClockDivider       ; ClockDivider       ;
+; Family name                                                                ; MAX 10             ; Cyclone V          ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                              ; Enable             ; Enable             ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                                        ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                          ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                            ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
+; DtypeFF.v                        ; yes             ; User Verilog HDL File  ; C:/Temp/QuartusProjects/207/ClockDivider/DtypeFF.v      ;         ;
+; ClockDivider.v                   ; yes             ; User Verilog HDL File  ; C:/Temp/QuartusProjects/207/ClockDivider/ClockDivider.v ;         ;
+; fourBitMux.v                     ; yes             ; User Verilog HDL File  ; C:/Temp/QuartusProjects/207/ClockDivider/fourBitMux.v   ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
+
+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimated Total logic elements              ; 24          ;
+;                                             ;             ;
+; Total combinational functions               ; 24          ;
+; Logic element usage by number of LUT inputs ;             ;
+;     -- 4 input functions                    ; 2           ;
+;     -- 3 input functions                    ; 0           ;
+;     -- <=2 input functions                  ; 22          ;
+;                                             ;             ;
+; Logic elements by mode                      ;             ;
+;     -- normal mode                          ; 24          ;
+;     -- arithmetic mode                      ; 0           ;
+;                                             ;             ;
+; Total registers                             ; 22          ;
+;     -- Dedicated logic registers            ; 22          ;
+;     -- I/O registers                        ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 5           ;
+;                                             ;             ;
+; Embedded Multiplier 9-bit elements          ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; rst_n~input ;
+; Maximum fan-out                             ; 22          ;
+; Total fan-out                               ; 102         ;
+; Average fan-out                             ; 1.82        ;
++---------------------------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                             ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------+--------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name             ; Entity Name  ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------+--------------+--------------+
+; |ClockDivider              ; 24 (0)              ; 22 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 5    ; 0            ; 0          ; |ClockDivider                   ; ClockDivider ; work         ;
+;    |DtypeFF:a|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:a         ; DtypeFF      ; work         ;
+;    |DtypeFF:b|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:b         ; DtypeFF      ; work         ;
+;    |DtypeFF:c|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:c         ; DtypeFF      ; work         ;
+;    |DtypeFF:d|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:d         ; DtypeFF      ; work         ;
+;    |DtypeFF:e|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:e         ; DtypeFF      ; work         ;
+;    |DtypeFF:f|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:f         ; DtypeFF      ; work         ;
+;    |DtypeFF:g|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:g         ; DtypeFF      ; work         ;
+;    |DtypeFF:h|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:h         ; DtypeFF      ; work         ;
+;    |DtypeFF:i|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:i         ; DtypeFF      ; work         ;
+;    |DtypeFF:j|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:j         ; DtypeFF      ; work         ;
+;    |DtypeFF:k|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:k         ; DtypeFF      ; work         ;
+;    |DtypeFF:l|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:l         ; DtypeFF      ; work         ;
+;    |DtypeFF:m|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:m         ; DtypeFF      ; work         ;
+;    |DtypeFF:nn|            ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:nn        ; DtypeFF      ; work         ;
+;    |DtypeFF:o|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:o         ; DtypeFF      ; work         ;
+;    |DtypeFF:p|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:p         ; DtypeFF      ; work         ;
+;    |DtypeFF:q|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:q         ; DtypeFF      ; work         ;
+;    |DtypeFF:r|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:r         ; DtypeFF      ; work         ;
+;    |DtypeFF:s|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:s         ; DtypeFF      ; work         ;
+;    |DtypeFF:t|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:t         ; DtypeFF      ; work         ;
+;    |DtypeFF:u|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:u         ; DtypeFF      ; work         ;
+;    |DtypeFF:v|             ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|DtypeFF:v         ; DtypeFF      ; work         ;
+;    |fourBitMux:select|     ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ClockDivider|fourBitMux:select ; fourBitMux   ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------+--------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 22    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 22    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "DtypeFF:v"  ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; en   ; Input ; Info     ; Stuck at VCC ;
++------+-------+----------+--------------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "DtypeFF:u"  ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; en   ; Input ; Info     ; Stuck at VCC ;
++------+-------+----------+--------------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "DtypeFF:t"  ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; en   ; Input ; Info     ; Stuck at VCC ;
++------+-------+----------+--------------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "DtypeFF:s"  ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; en   ; Input ; Info     ; Stuck at VCC ;
++------+-------+----------+--------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:r"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:q"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:p"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:o"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:nn"            ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:m"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:l"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:k"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:j"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:i"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:h"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:g"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:f"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:e"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:d"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:c"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:b"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "DtypeFF:a"             ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; en   ; Input  ; Info     ; Stuck at VCC           ;
+; Q    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 5                           ;
+; cycloneiii_ff         ; 22                          ;
+;     CLR               ; 22                          ;
+; cycloneiii_lcell_comb ; 24                          ;
+;     normal            ; 24                          ;
+;         1 data inputs ; 22                          ;
+;         4 data inputs ; 2                           ;
+;                       ;                             ;
+; Max LUT depth         ; 2.00                        ;
+; Average LUT depth     ; 1.08                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Mon Mar 25 12:53:00 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ClockDivider -c ClockDivider
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file dtypeff.v
+    Info (12023): Found entity 1: DtypeFF File: C:/Temp/QuartusProjects/207/ClockDivider/DtypeFF.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file clockdivider.v
+    Info (12023): Found entity 1: ClockDivider File: C:/Temp/QuartusProjects/207/ClockDivider/ClockDivider.v Line: 18
+Info (12021): Found 1 design units, including 1 entities, in source file fourbitmux.v
+    Info (12023): Found entity 1: fourBitMux File: C:/Temp/QuartusProjects/207/ClockDivider/fourBitMux.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file clockdivider_tb.v
+    Info (12023): Found entity 1: ClockDivider_tb File: C:/Temp/QuartusProjects/207/ClockDivider/ClockDivider_tb.v Line: 3
+Info (12127): Elaborating entity "ClockDivider" for the top level hierarchy
+Info (12128): Elaborating entity "DtypeFF" for hierarchy "DtypeFF:a" File: C:/Temp/QuartusProjects/207/ClockDivider/ClockDivider.v Line: 38
+Info (12128): Elaborating entity "fourBitMux" for hierarchy "fourBitMux:select" File: C:/Temp/QuartusProjects/207/ClockDivider/ClockDivider.v Line: 233
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/Temp/QuartusProjects/207/ClockDivider/output_files/ClockDivider.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 29 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 4 input pins
+    Info (21059): Implemented 1 output pins
+    Info (21061): Implemented 24 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4805 megabytes
+    Info: Processing ended: Mon Mar 25 12:53:15 2019
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:28
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Temp/QuartusProjects/207/ClockDivider/output_files/ClockDivider.map.smsg.
+
+

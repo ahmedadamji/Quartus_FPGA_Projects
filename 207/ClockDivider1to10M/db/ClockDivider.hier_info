@@ -1,0 +1,77 @@
+|ClockDivider
+clk => clk.IN1
+n[0] => n[0].IN1
+n[1] => n[1].IN1
+n[2] => n[2].IN1
+n[3] => n[3].IN1
+en => en.IN2
+clkout << JKTypeFF:minclk.Q
+
+
+|ClockDivider|FourBitBinaryCounter:system
+clk => clk.IN4
+en => en.IN4
+rst_n => rst_n.IN4
+count[0] <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= JKTypeFF:b.Q
+count[2] <= JKTypeFF:c.Q
+count[3] <= JKTypeFF:d.Q
+
+
+|ClockDivider|FourBitBinaryCounter:system|JKTypeFF:a
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+rst_n => Q~reg0.ACLR
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClockDivider|FourBitBinaryCounter:system|JKTypeFF:b
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+rst_n => Q~reg0.ACLR
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClockDivider|FourBitBinaryCounter:system|JKTypeFF:c
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+rst_n => Q~reg0.ACLR
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClockDivider|FourBitBinaryCounter:system|JKTypeFF:d
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+rst_n => Q~reg0.ACLR
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClockDivider|Comparator:set
+n[0] => WideOr0.IN0
+n[1] => WideOr0.IN1
+n[2] => WideOr0.IN2
+n[3] => WideOr0.IN3
+a[0] => WideOr1.IN0
+a[1] => WideOr1.IN1
+a[2] => WideOr1.IN2
+a[3] => WideOr1.IN3
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClockDivider|JKTypeFF:minclk
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+rst_n => Q~reg0.ACLR
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

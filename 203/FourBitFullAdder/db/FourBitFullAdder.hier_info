@@ -1,0 +1,69 @@
+|FourBitFullAdder
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+sum[0] << OneBitFullAdder:adder1.port3
+sum[1] << OneBitFullAdder:adder2.port3
+sum[2] << OneBitFullAdder:adder3.port3
+sum[3] << OneBitFullAdder:adder4.port3
+c_out << OneBitFullAdder:adder4.port4
+
+
+|FourBitFullAdder|OneBitFullAdder:adder1
+a => WideXor0.IN0
+a => w1.IN0
+a => w3.IN0
+b => WideXor0.IN1
+b => w1.IN1
+b => w3.IN1
+c_in => WideXor0.IN2
+c_in => w2.IN1
+sum <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourBitFullAdder|OneBitFullAdder:adder2
+a => WideXor0.IN0
+a => w1.IN0
+a => w3.IN0
+b => WideXor0.IN1
+b => w1.IN1
+b => w3.IN1
+c_in => WideXor0.IN2
+c_in => w2.IN1
+sum <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourBitFullAdder|OneBitFullAdder:adder3
+a => WideXor0.IN0
+a => w1.IN0
+a => w3.IN0
+b => WideXor0.IN1
+b => w1.IN1
+b => w3.IN1
+c_in => WideXor0.IN2
+c_in => w2.IN1
+sum <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourBitFullAdder|OneBitFullAdder:adder4
+a => WideXor0.IN0
+a => w1.IN0
+a => w3.IN0
+b => WideXor0.IN1
+b => w1.IN1
+b => w3.IN1
+c_in => WideXor0.IN2
+c_in => w2.IN1
+sum <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

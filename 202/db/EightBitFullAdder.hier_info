@@ -1,0 +1,114 @@
+|EightBitFullAdder
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+sum[0] <= HalfAdder:adder1.port2
+sum[1] <= OneBitFullAdder:adder2.port3
+sum[2] <= OneBitFullAdder:adder3.port3
+sum[3] <= OneBitFullAdder:adder4.port3
+sum[4] <= OneBitFullAdder:adder5.port3
+sum[5] <= OneBitFullAdder:adder6.port3
+sum[6] <= OneBitFullAdder:adder7.port3
+sum[7] <= OneBitFullAdder:adder8.port3
+c_out <= OneBitFullAdder:adder8.port4
+
+
+|EightBitFullAdder|HalfAdder:adder1
+A => comb.IN0
+A => comb.IN0
+B => comb.IN1
+B => comb.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|OneBitFullAdder:adder2
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|OneBitFullAdder:adder3
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|OneBitFullAdder:adder4
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|OneBitFullAdder:adder5
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|OneBitFullAdder:adder6
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|OneBitFullAdder:adder7
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitFullAdder|OneBitFullAdder:adder8
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

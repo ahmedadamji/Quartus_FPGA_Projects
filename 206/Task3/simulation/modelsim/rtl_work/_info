@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Temp/QuartusProjects/206/Task3/simulation/modelsim
+vTask1
+Z1 !s110 1553009953
+!i10b 1
+!s100 A3aCLza>DATX]bW4mHU]Y2
+IQhfWzIWiD6?S0Y8PF88jU3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1553009071
+8C:/Temp/QuartusProjects/206/Task3/Task1.v
+FC:/Temp/QuartusProjects/206/Task3/Task1.v
+L0 20
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1553009953.000000
+!s107 C:/Temp/QuartusProjects/206/Task3/Task1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/206/Task3|C:/Temp/QuartusProjects/206/Task3/Task1.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/206/Task3
+Z7 tCvgOpt 0
+n@task1
+vTask2
+R1
+!i10b 1
+!s100 <M^CDGAaDc4bQgK5[TiNg3
+ImMizH4_6T=>=keOW8JQ0l3
+R2
+R0
+w1553008112
+8C:/Temp/QuartusProjects/206/Task3/Task2.v
+FC:/Temp/QuartusProjects/206/Task3/Task2.v
+Z8 L0 18
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/206/Task3/Task2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/206/Task3|C:/Temp/QuartusProjects/206/Task3/Task2.v|
+!i113 1
+R5
+R6
+R7
+n@task2
+vTask3
+R1
+!i10b 1
+!s100 2DGhHAG`QGAGaXPdm_<T62
+I9L37O:=PZXXh=SkM<SMWT3
+R2
+R0
+w1553009652
+8C:/Temp/QuartusProjects/206/Task3/Task3.v
+FC:/Temp/QuartusProjects/206/Task3/Task3.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/206/Task3/Task3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/206/Task3|C:/Temp/QuartusProjects/206/Task3/Task3.v|
+!i113 1
+R5
+R6
+R7
+n@task3
+vTask3_tb
+R1
+!i10b 1
+!s100 A;[mO0C:C=c394?aZd^I10
+I_]]n3iW1c_aDKIQ0cCD=c2
+R2
+R0
+w1553009898
+8C:/Temp/QuartusProjects/206/Task3/Task3_tb.v
+FC:/Temp/QuartusProjects/206/Task3/Task3_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/206/Task3/Task3_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/206/Task3|C:/Temp/QuartusProjects/206/Task3/Task3_tb.v|
+!i113 1
+R5
+R6
+R7
+n@task3_tb

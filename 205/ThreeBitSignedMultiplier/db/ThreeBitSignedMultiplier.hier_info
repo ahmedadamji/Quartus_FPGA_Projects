@@ -1,0 +1,320 @@
+|ThreeBitSignedMultiplier
+a[0] => a[0].IN5
+a[1] => a[1].IN4
+a[2] => a[2].IN6
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[0] => comb.IN0
+b[1] => b[1].IN5
+b[2] => b[2].IN10
+d[0] << comb.DB_MAX_OUTPUT_PORT_TYPE
+d[1] << ArrayCell:cell1.sum
+d[2] << ArrayCell:cell3.sum
+d[3] << ArrayCell:cell6.sum
+d[4] << ArrayCell:cell10.sum
+d[5] << ArrayCell:cell15.sum
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell1
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell1|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell2
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell2|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell3
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell3|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell4
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell4|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell5
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell5|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell6
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell6|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell7
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell7|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell8
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell8|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell9
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell9|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell10
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell10|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell11
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell11|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell12
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell12|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell13
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell13|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell14
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell14|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell15
+andout => andout.IN1
+a => comb.IN0
+b => comb.IN1
+c_in => c_in.IN1
+sum <= OneBitFullAdder:adder1.port3
+c_out <= OneBitFullAdder:adder1.port4
+
+
+|ThreeBitSignedMultiplier|ArrayCell:cell15|OneBitFullAdder:adder1
+a => w1.IN0
+a => w3.IN0
+b => w1.IN1
+b => w3.IN1
+c_in => comb.IN1
+c_in => w2.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

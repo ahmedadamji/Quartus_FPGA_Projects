@@ -1,0 +1,10 @@
+|Bm
+A => w1.IN0
+A => WideAnd0.IN0
+B => WideAnd0.IN1
+C => w1.IN1
+C => WideNor0.IN2
+D => WideAnd0.IN2
+out <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+

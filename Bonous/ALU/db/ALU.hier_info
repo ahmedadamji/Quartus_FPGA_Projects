@@ -1,0 +1,309 @@
+|ALU
+aorb[0] => aorb[0].IN2
+aorb[1] => aorb[1].IN2
+aorb[2] => aorb[2].IN2
+aorb[3] => aorb[3].IN2
+sela => _.IN1
+selb => _.IN1
+rst_n => rst_n.IN2
+clk => clk.IN2
+en => en.IN2
+f[0] => f[0].IN2
+f[1] => f[1].IN1
+f[2] => f[2].IN1
+f[3] => f[3].IN2
+y[0] <= Mux2Way4:auorlu.out
+y[1] <= Mux2Way4:auorlu.out
+y[2] <= Mux2Way4:auorlu.out
+y[3] <= Mux2Way4:auorlu.out
+
+
+|ALU|Register:rega
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+load => load.IN1
+en => en.IN1
+clk => clk.IN1
+rst_n => rst_n.IN1
+out[0] <= Q[0].DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= Q[1].DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= Q[2].DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= Q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Register:rega|DTypeFF4Bit:dTypeFF
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+en => Q[0]~reg0.ENA
+en => Q[3]~reg0.ENA
+en => Q[2]~reg0.ENA
+en => Q[1]~reg0.ENA
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+rst_n => Q[0]~reg0.ACLR
+rst_n => Q[1]~reg0.ACLR
+rst_n => Q[2]~reg0.ACLR
+rst_n => Q[3]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Register:rega|Mux2Way4:mux
+a[0] => out.DATAB
+a[1] => out.DATAB
+a[2] => out.DATAB
+a[3] => out.DATAB
+b[0] => out.DATAA
+b[1] => out.DATAA
+b[2] => out.DATAA
+b[3] => out.DATAA
+sel => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Register:regb
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+load => load.IN1
+en => en.IN1
+clk => clk.IN1
+rst_n => rst_n.IN1
+out[0] <= Q[0].DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= Q[1].DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= Q[2].DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= Q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Register:regb|DTypeFF4Bit:dTypeFF
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+en => Q[0]~reg0.ENA
+en => Q[3]~reg0.ENA
+en => Q[2]~reg0.ENA
+en => Q[1]~reg0.ENA
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+rst_n => Q[0]~reg0.ACLR
+rst_n => Q[1]~reg0.ACLR
+rst_n => Q[2]~reg0.ACLR
+rst_n => Q[3]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Register:regb|Mux2Way4:mux
+a[0] => out.DATAB
+a[1] => out.DATAB
+a[2] => out.DATAB
+a[3] => out.DATAB
+b[0] => out.DATAA
+b[1] => out.DATAA
+b[2] => out.DATAA
+b[3] => out.DATAA
+sel => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Mux2Way4:aora_n
+a[0] => out.DATAB
+a[1] => out.DATAB
+a[2] => out.DATAB
+a[3] => out.DATAB
+b[0] => out.DATAA
+b[1] => out.DATAA
+b[2] => out.DATAA
+b[3] => out.DATAA
+sel => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Mux2Way4:borb_n
+a[0] => out.DATAB
+a[1] => out.DATAB
+a[2] => out.DATAB
+a[3] => out.DATAB
+b[0] => out.DATAA
+b[1] => out.DATAA
+b[2] => out.DATAA
+b[3] => out.DATAA
+sel => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|AU:arithmitic
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+f0 => f0.IN1
+out[0] <= FourBitFullAdder:add.sum
+out[1] <= FourBitFullAdder:add.sum
+out[2] <= FourBitFullAdder:add.sum
+out[3] <= FourBitFullAdder:add.sum
+
+
+|ALU|AU:arithmitic|FourBitFullAdder:add
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+sum[0] <= OneBitFullAdder:b0.sum
+sum[1] <= OneBitFullAdder:b1.sum
+sum[2] <= OneBitFullAdder:b2.sum
+sum[3] <= OneBitFullAdder:b3.sum
+c_out <= OneBitFullAdder:b3.c_out
+
+
+|ALU|AU:arithmitic|FourBitFullAdder:add|OneBitFullAdder:b0
+a => sum.IN0
+a => c_out.IN0
+b => sum.IN1
+b => c_out.IN1
+c_in => sum.IN1
+c_in => c_out.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|AU:arithmitic|FourBitFullAdder:add|OneBitFullAdder:b1
+a => sum.IN0
+a => c_out.IN0
+b => sum.IN1
+b => c_out.IN1
+c_in => sum.IN1
+c_in => c_out.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|AU:arithmitic|FourBitFullAdder:add|OneBitFullAdder:b2
+a => sum.IN0
+a => c_out.IN0
+b => sum.IN1
+b => c_out.IN1
+c_in => sum.IN1
+c_in => c_out.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|AU:arithmitic|FourBitFullAdder:add|OneBitFullAdder:b3
+a => sum.IN0
+a => c_out.IN0
+b => sum.IN1
+b => c_out.IN1
+c_in => sum.IN1
+c_in => c_out.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|LU:logic
+a[0] => aandb.IN0
+a[0] => aorb.IN0
+a[0] => axorb.IN0
+a[1] => aandb.IN0
+a[1] => aorb.IN0
+a[1] => axorb.IN0
+a[2] => aandb.IN0
+a[2] => aorb.IN0
+a[2] => axorb.IN0
+a[3] => aandb.IN0
+a[3] => aorb.IN0
+a[3] => axorb.IN0
+b[0] => mov[0].IN1
+b[1] => mov[1].IN1
+b[2] => mov[2].IN1
+b[3] => mov[3].IN1
+f0 => muxsel[0].IN1
+f3 => muxsel[1].IN1
+out[0] <= Mux4Way4:luMux.out
+out[1] <= Mux4Way4:luMux.out
+out[2] <= Mux4Way4:luMux.out
+out[3] <= Mux4Way4:luMux.out
+
+
+|ALU|LU:logic|Mux4Way4:luMux
+a[0] => Mux3.IN0
+a[1] => Mux2.IN0
+a[2] => Mux1.IN0
+a[3] => Mux0.IN0
+b[0] => Mux3.IN1
+b[1] => Mux2.IN1
+b[2] => Mux1.IN1
+b[3] => Mux0.IN1
+c[0] => Mux3.IN2
+c[1] => Mux2.IN2
+c[2] => Mux1.IN2
+c[3] => Mux0.IN2
+d[0] => Mux3.IN3
+d[1] => Mux2.IN3
+d[2] => Mux1.IN3
+d[3] => Mux0.IN3
+sel[0] => Mux0.IN5
+sel[0] => Mux1.IN5
+sel[0] => Mux2.IN5
+sel[0] => Mux3.IN5
+sel[1] => Mux0.IN4
+sel[1] => Mux1.IN4
+sel[1] => Mux2.IN4
+sel[1] => Mux3.IN4
+out[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Mux2Way4:auorlu
+a[0] => out.DATAB
+a[1] => out.DATAB
+a[2] => out.DATAB
+a[3] => out.DATAB
+b[0] => out.DATAA
+b[1] => out.DATAA
+b[2] => out.DATAA
+b[3] => out.DATAA
+sel => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

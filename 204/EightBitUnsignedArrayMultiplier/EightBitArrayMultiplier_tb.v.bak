@@ -1,0 +1,49 @@
+`timescale 1 ns/100 ps
+
+module EightBitArrayMultiplier_tb;
+
+	// Inputs are created as registers
+	reg [7:0] a;
+	reg [7:0] b;
+	
+	// Outputs are created as wires 
+	wire [15:0] multi;
+
+	// Instantiate Device under test
+	EightBitArrayMultiplier dut(
+	a,
+	b,
+	multi
+	);
+	
+	integer i;
+	integer expected_result;
+	integer actual_result;
+	
+	// Create Stimulus
+	initial begin
+	
+		for (i=0; i < 100; i = i + 1) // test 100 different times
+		begin
+		
+			// set a and b to random unsigned eight bit values
+			a = $urandom()%255;
+			b = $urandom()%255;
+			
+			#10;
+			
+			expected_result = a * b;
+			actual_result = {multi};
+			
+			if(!(expected_result == actual_result))
+			begin
+					$display("incorrect result at %d and %d.",a,b);
+		
+			end
+		end
+		
+		$stop; //stop the simulation
+		
+	end
+
+endmodule

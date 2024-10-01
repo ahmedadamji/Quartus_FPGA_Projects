@@ -1,0 +1,6 @@
+|NandGate
+A => comb.IN0
+B => comb.IN1
+Out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

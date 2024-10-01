@@ -1,0 +1,12 @@
+|MysteryDevice
+a => w[0].IN0
+b => w[0].IN1
+c => WideXor0.IN1
+c => w[2].IN0
+d => WideXor0.IN2
+d => w[2].IN1
+e => w[3].IN0
+f => w[3].IN1
+x << WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
+
+

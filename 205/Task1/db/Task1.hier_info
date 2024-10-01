@@ -1,0 +1,15 @@
+|Task1
+SW0 => comb.IN0
+SW1 => comb.IN1
+SW2 => comb.IN0
+SW3 => comb.IN1
+SW4 => comb.IN0
+SW5 => comb.IN1
+SW6 => comb.IN0
+SW7 => comb.IN1
+LEDR0 << comb.DB_MAX_OUTPUT_PORT_TYPE
+LEDR1 << comb.DB_MAX_OUTPUT_PORT_TYPE
+LEDR2 << comb.DB_MAX_OUTPUT_PORT_TYPE
+LEDR3 << comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

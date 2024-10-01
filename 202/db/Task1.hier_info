@@ -1,0 +1,11 @@
+|Cm
+A => WideAnd0.IN0
+A => WideAnd1.IN1
+A => w1.IN0
+B => WideAnd0.IN1
+B => w1.IN1
+C => WideAnd0.IN2
+C => WideAnd1.IN2
+out << comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

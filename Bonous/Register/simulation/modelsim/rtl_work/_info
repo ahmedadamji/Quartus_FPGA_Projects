@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Temp/QuartusProjects/Bonous Lab/Register/simulation/modelsim
+vDTypeFF4Bit
+Z1 !s110 1556444248
+!i10b 1
+!s100 :S?nKnF1@UJJ<OXWm9UeG1
+IG8iAHi8aUSQVMBI>A8]WL2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1556382218
+8C:/Temp/QuartusProjects/Bonous Lab/Register/DTypeFF4Bit.v
+FC:/Temp/QuartusProjects/Bonous Lab/Register/DTypeFF4Bit.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1556444248.000000
+!s107 C:/Temp/QuartusProjects/Bonous Lab/Register/DTypeFF4Bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/Bonous Lab/Register|C:/Temp/QuartusProjects/Bonous Lab/Register/DTypeFF4Bit.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Temp/QuartusProjects/Bonous Lab/Register}
+Z7 tCvgOpt 0
+n@d@type@f@f4@bit
+vMux2Way4
+R1
+!i10b 1
+!s100 g3I<TVhfF7=5<hNYi40Yi1
+INiIYdIYM2HNYi`0h[2fh33
+R2
+R0
+w1556385282
+8C:/Temp/QuartusProjects/Bonous Lab/Register/Mux2Way4.v
+FC:/Temp/QuartusProjects/Bonous Lab/Register/Mux2Way4.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/Bonous Lab/Register/Mux2Way4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/Bonous Lab/Register|C:/Temp/QuartusProjects/Bonous Lab/Register/Mux2Way4.v|
+!i113 1
+R5
+R6
+R7
+n@mux2@way4
+vRegister
+R1
+!i10b 1
+!s100 O_AzMaAXQI>_6WbnJmQR62
+I>;mXKLnSD<C=YbXbCgkEY1
+R2
+R0
+w1556443162
+8C:/Temp/QuartusProjects/Bonous Lab/Register/Register.v
+FC:/Temp/QuartusProjects/Bonous Lab/Register/Register.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/Bonous Lab/Register/Register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/Bonous Lab/Register|C:/Temp/QuartusProjects/Bonous Lab/Register/Register.v|
+!i113 1
+R5
+R6
+R7
+n@register
+vRegister_tb
+!s110 1556444249
+!i10b 1
+!s100 T0RQ^^l17T1Wg66XTCC?j2
+I5nUl?aegKWNX?1FLKFiT=3
+R2
+R0
+w1556444198
+8C:/Temp/QuartusProjects/Bonous Lab/Register/Register_tb.v
+FC:/Temp/QuartusProjects/Bonous Lab/Register/Register_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/Bonous Lab/Register/Register_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/Bonous Lab/Register|C:/Temp/QuartusProjects/Bonous Lab/Register/Register_tb.v|
+!i113 1
+R5
+R6
+R7
+n@register_tb

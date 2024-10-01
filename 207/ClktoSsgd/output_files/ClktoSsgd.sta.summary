@@ -1,0 +1,941 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:x|Q'
+Slack : -5.188
+TNS   : -17.304
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:v|Q'
+Slack : -4.745
+TNS   : -15.888
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:w|Q'
+Slack : -4.666
+TNS   : -15.527
+
+Type  : Slow 1200mV 85C Model Setup 'n[0]'
+Slack : -2.890
+TNS   : -8.405
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:d|Q'
+Slack : -0.714
+TNS   : -0.714
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:b|Q'
+Slack : -0.577
+TNS   : -0.577
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:h|Q'
+Slack : -0.514
+TNS   : -0.514
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -0.497
+TNS   : -0.497
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:u|Q'
+Slack : -0.495
+TNS   : -0.495
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:o|Q'
+Slack : -0.444
+TNS   : -0.444
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:s|Q'
+Slack : -0.434
+TNS   : -0.434
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:k|Q'
+Slack : -0.404
+TNS   : -0.404
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:q|Q'
+Slack : -0.384
+TNS   : -0.384
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:i|Q'
+Slack : -0.317
+TNS   : -0.317
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:p|Q'
+Slack : -0.315
+TNS   : -0.315
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:a|Q'
+Slack : -0.313
+TNS   : -0.313
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:nn|Q'
+Slack : -0.313
+TNS   : -0.313
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:l|Q'
+Slack : -0.312
+TNS   : -0.312
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:g|Q'
+Slack : -0.309
+TNS   : -0.309
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:t|Q'
+Slack : -0.295
+TNS   : -0.295
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:c|Q'
+Slack : -0.285
+TNS   : -0.285
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:r|Q'
+Slack : -0.273
+TNS   : -0.273
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:e|Q'
+Slack : -0.245
+TNS   : -0.245
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:m|Q'
+Slack : -0.222
+TNS   : -0.222
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:f|Q'
+Slack : -0.220
+TNS   : -0.220
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:a|DtypeFF:j|Q'
+Slack : -0.175
+TNS   : -0.175
+
+Type  : Slow 1200mV 85C Model Hold 'n[0]'
+Slack : -1.987
+TNS   : -7.936
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:w|Q'
+Slack : -0.315
+TNS   : -1.248
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:v|Q'
+Slack : -0.227
+TNS   : -0.896
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:j|Q'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:x|Q'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:f|Q'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:m|Q'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:c|Q'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:r|Q'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:t|Q'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:g|Q'
+Slack : 0.420
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:a|Q'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:i|Q'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:p|Q'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:e|Q'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:l|Q'
+Slack : 0.434
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:nn|Q'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:q|Q'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:k|Q'
+Slack : 0.495
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:s|Q'
+Slack : 0.520
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.524
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:o|Q'
+Slack : 0.546
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:h|Q'
+Slack : 0.552
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:b|Q'
+Slack : 0.599
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:u|Q'
+Slack : 0.639
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:a|DtypeFF:d|Q'
+Slack : 0.697
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'n[0]'
+Slack : -3.000
+TNS   : -7.888
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -4.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:v|Q'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:w|Q'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:x|Q'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:a|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:b|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:c|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:d|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:e|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:f|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:g|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:h|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:i|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:j|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:k|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:l|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:m|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:nn|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:o|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:p|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:q|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:r|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:s|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:t|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:u|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:x|Q'
+Slack : -4.676
+TNS   : -15.632
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:v|Q'
+Slack : -4.262
+TNS   : -14.252
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:w|Q'
+Slack : -4.185
+TNS   : -13.922
+
+Type  : Slow 1200mV 0C Model Setup 'n[0]'
+Slack : -2.486
+TNS   : -7.225
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:d|Q'
+Slack : -0.629
+TNS   : -0.629
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:b|Q'
+Slack : -0.495
+TNS   : -0.495
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:h|Q'
+Slack : -0.431
+TNS   : -0.431
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:u|Q'
+Slack : -0.423
+TNS   : -0.423
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:o|Q'
+Slack : -0.374
+TNS   : -0.374
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:s|Q'
+Slack : -0.356
+TNS   : -0.356
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:k|Q'
+Slack : -0.340
+TNS   : -0.340
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:q|Q'
+Slack : -0.317
+TNS   : -0.317
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -0.312
+TNS   : -0.312
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:nn|Q'
+Slack : -0.242
+TNS   : -0.242
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:l|Q'
+Slack : -0.241
+TNS   : -0.241
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:i|Q'
+Slack : -0.240
+TNS   : -0.240
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:p|Q'
+Slack : -0.238
+TNS   : -0.238
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:a|Q'
+Slack : -0.234
+TNS   : -0.234
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:g|Q'
+Slack : -0.230
+TNS   : -0.230
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:t|Q'
+Slack : -0.220
+TNS   : -0.220
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:c|Q'
+Slack : -0.219
+TNS   : -0.219
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:r|Q'
+Slack : -0.209
+TNS   : -0.209
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:e|Q'
+Slack : -0.182
+TNS   : -0.182
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:m|Q'
+Slack : -0.162
+TNS   : -0.162
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:f|Q'
+Slack : -0.157
+TNS   : -0.157
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:j|Q'
+Slack : -0.120
+TNS   : -0.120
+
+Type  : Slow 1200mV 0C Model Hold 'n[0]'
+Slack : -1.910
+TNS   : -7.627
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:w|Q'
+Slack : -0.307
+TNS   : -1.215
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:v|Q'
+Slack : -0.222
+TNS   : -0.875
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:j|Q'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:x|Q'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:f|Q'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:m|Q'
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:c|Q'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:t|Q'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:r|Q'
+Slack : 0.374
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.375
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:g|Q'
+Slack : 0.376
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:a|Q'
+Slack : 0.382
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:i|Q'
+Slack : 0.382
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:e|Q'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:p|Q'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:l|Q'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:nn|Q'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:q|Q'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:k|Q'
+Slack : 0.463
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:s|Q'
+Slack : 0.476
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:o|Q'
+Slack : 0.511
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:h|Q'
+Slack : 0.512
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:b|Q'
+Slack : 0.565
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:u|Q'
+Slack : 0.603
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:d|Q'
+Slack : 0.660
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'n[0]'
+Slack : -3.000
+TNS   : -7.888
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -4.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:v|Q'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:w|Q'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:x|Q'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:a|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:b|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:c|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:d|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:e|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:f|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:g|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:h|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:i|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:j|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:k|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:l|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:m|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:nn|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:o|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:p|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:q|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:r|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:s|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:t|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:u|Q'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:x|Q'
+Slack : -2.020
+TNS   : -6.256
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:v|Q'
+Slack : -1.826
+TNS   : -5.480
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:w|Q'
+Slack : -1.789
+TNS   : -5.332
+
+Type  : Fast 1200mV 0C Model Setup 'n[0]'
+Slack : -1.031
+TNS   : -2.960
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.083
+TNS   : -0.083
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:d|Q'
+Slack : -0.023
+TNS   : -0.023
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:b|Q'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:u|Q'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:o|Q'
+Slack : 0.077
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:h|Q'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:s|Q'
+Slack : 0.095
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:k|Q'
+Slack : 0.108
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:q|Q'
+Slack : 0.123
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:i|Q'
+Slack : 0.130
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:nn|Q'
+Slack : 0.130
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:l|Q'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:p|Q'
+Slack : 0.132
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:a|Q'
+Slack : 0.134
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:g|Q'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:t|Q'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:c|Q'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:r|Q'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:e|Q'
+Slack : 0.162
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:m|Q'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:f|Q'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:a|DtypeFF:j|Q'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'n[0]'
+Slack : -0.857
+TNS   : -3.424
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:w|Q'
+Slack : -0.150
+TNS   : -0.596
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:v|Q'
+Slack : -0.110
+TNS   : -0.436
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:j|Q'
+Slack : 0.115
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:f|Q'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:m|Q'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:x|Q'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:q|Q'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:c|Q'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:r|Q'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:t|Q'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:g|Q'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:i|Q'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:a|Q'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:l|Q'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:p|Q'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:nn|Q'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:e|Q'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:k|Q'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:h|Q'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:s|Q'
+Slack : 0.211
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:o|Q'
+Slack : 0.219
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:b|Q'
+Slack : 0.220
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:u|Q'
+Slack : 0.261
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:a|DtypeFF:d|Q'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'n[0]'
+Slack : -3.000
+TNS   : -8.584
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -4.275
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:v|Q'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:w|Q'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:x|Q'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:a|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:b|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:c|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:d|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:e|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:f|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:g|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:h|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:i|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:j|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:k|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:l|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:m|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:nn|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:o|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:p|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:q|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:r|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:s|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:t|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:a|DtypeFF:u|Q'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

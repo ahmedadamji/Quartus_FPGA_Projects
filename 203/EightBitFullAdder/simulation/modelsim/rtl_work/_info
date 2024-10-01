@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Temp/QuartusProjects/203/EightBitFullAdder/simulation/modelsim
+vEightBitFullAdder
+Z1 !s110 1549885401
+!i10b 1
+!s100 n[Ic^J:0`PG5CFN?KV_o<3
+IUQCkn2TF]1EjZF2B@@?zH3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1549206727
+8C:/Temp/QuartusProjects/203/EightBitFullAdder/EightBitFullAdder.v
+FC:/Temp/QuartusProjects/203/EightBitFullAdder/EightBitFullAdder.v
+Z3 L0 20
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1549885401.000000
+!s107 C:/Temp/QuartusProjects/203/EightBitFullAdder/EightBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/203/EightBitFullAdder|C:/Temp/QuartusProjects/203/EightBitFullAdder/EightBitFullAdder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/203/EightBitFullAdder
+Z8 tCvgOpt 0
+n@eight@bit@full@adder
+vEightBitFullAdder_tb
+R1
+!i10b 1
+!s100 GC71U>2>ECh1[4bH=UdVJ2
+I]cMBLV@zVJ2GYQ6YPGJL80
+R2
+R0
+w1549885095
+8C:/Temp/QuartusProjects/203/EightBitFullAdder/EightBitFullAdder_tb.v
+FC:/Temp/QuartusProjects/203/EightBitFullAdder/EightBitFullAdder_tb.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Temp/QuartusProjects/203/EightBitFullAdder/EightBitFullAdder_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/203/EightBitFullAdder|C:/Temp/QuartusProjects/203/EightBitFullAdder/EightBitFullAdder_tb.v|
+!i113 1
+R6
+R7
+R8
+n@eight@bit@full@adder_tb
+vHalfAdder
+R1
+!i10b 1
+!s100 3ejaXdhCSFPe85TBN@_2X1
+Ik^DYWhfg2`TGVg9_h2]GK2
+R2
+R0
+w1549206214
+8C:/Temp/QuartusProjects/203/EightBitFullAdder/HalfAdder.v
+FC:/Temp/QuartusProjects/203/EightBitFullAdder/HalfAdder.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Temp/QuartusProjects/203/EightBitFullAdder/HalfAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/203/EightBitFullAdder|C:/Temp/QuartusProjects/203/EightBitFullAdder/HalfAdder.v|
+!i113 1
+R6
+R7
+R8
+n@half@adder
+vOneBitFullAdder
+R1
+!i10b 1
+!s100 o>HDeJC6F2EMnh_BbHec12
+IZ9YCXzB5?BBKCKdOb3<m72
+R2
+R0
+w1549729905
+8C:/Temp/QuartusProjects/203/EightBitFullAdder/OneBitFullAdder.v
+FC:/Temp/QuartusProjects/203/EightBitFullAdder/OneBitFullAdder.v
+L0 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Temp/QuartusProjects/203/EightBitFullAdder/OneBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/203/EightBitFullAdder|C:/Temp/QuartusProjects/203/EightBitFullAdder/OneBitFullAdder.v|
+!i113 1
+R6
+R7
+R8
+n@one@bit@full@adder

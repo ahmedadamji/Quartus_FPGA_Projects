@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Temp/QuartusProjects/203/FourBitFullAdder/simulation/modelsim
+vFourBitFullAdder
+Z1 !s110 1554737046
+!i10b 1
+!s100 1GC:Zf:4P?eGHD6U9^Qd;2
+Ich`dgkIPm`JA`LJIWbf^L1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1549729910
+8C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder.v
+FC:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder.v
+Z3 L0 21
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1554737046.000000
+!s107 C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/203/FourBitFullAdder|C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/203/FourBitFullAdder
+Z8 tCvgOpt 0
+n@four@bit@full@adder
+vFourBitFullAdder_tb
+R1
+!i10b 1
+!s100 W]:nXBYgZBdhjSGmkn?@W0
+IXIMZ?Jz9VT28zih=59zBa1
+R2
+R0
+w1554736987
+8C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder_tb.v
+FC:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder_tb.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/203/FourBitFullAdder|C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder_tb.v|
+!i113 1
+R6
+R7
+R8
+n@four@bit@full@adder_tb
+vOneBitFullAdder
+R1
+!i10b 1
+!s100 W3d?33dNzS]0BZ53QN91<2
+Il5XZ6_^2`Pa^WZMl]>^kh3
+R2
+R0
+w1551631146
+8C:/Temp/QuartusProjects/203/FourBitFullAdder/OneBitFullAdder.v
+FC:/Temp/QuartusProjects/203/FourBitFullAdder/OneBitFullAdder.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Temp/QuartusProjects/203/FourBitFullAdder/OneBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/203/FourBitFullAdder|C:/Temp/QuartusProjects/203/FourBitFullAdder/OneBitFullAdder.v|
+!i113 1
+R6
+R7
+R8
+n@one@bit@full@adder

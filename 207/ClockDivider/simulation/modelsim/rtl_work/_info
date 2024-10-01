@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Temp/QuartusProjects/207/ClockDivider/simulation/modelsim
+vClockDivider
+Z1 !s110 1553518432
+!i10b 1
+!s100 >ChW<1LT;_;;Z]a2`==9f1
+I?VHMUVmJXKMXS;QJGoZll2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1553517549
+8C:/Temp/QuartusProjects/207/ClockDivider/ClockDivider.v
+FC:/Temp/QuartusProjects/207/ClockDivider/ClockDivider.v
+L0 18
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1553518432.000000
+!s107 C:/Temp/QuartusProjects/207/ClockDivider/ClockDivider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/207/ClockDivider|C:/Temp/QuartusProjects/207/ClockDivider/ClockDivider.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/207/ClockDivider
+Z7 tCvgOpt 0
+n@clock@divider
+vClockDivider_tb
+Z8 !s110 1553518433
+!i10b 1
+!s100 1LDoaniT?=F;_JXbn1;aA1
+Izl?POX1g3k2T?OEka@[i[0
+R2
+R0
+w1553518379
+8C:/Temp/QuartusProjects/207/ClockDivider/ClockDivider_tb.v
+FC:/Temp/QuartusProjects/207/ClockDivider/ClockDivider_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1553518433.000000
+!s107 C:/Temp/QuartusProjects/207/ClockDivider/ClockDivider_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/207/ClockDivider|C:/Temp/QuartusProjects/207/ClockDivider/ClockDivider_tb.v|
+!i113 1
+R5
+R6
+R7
+n@clock@divider_tb
+vDtypeFF
+R1
+!i10b 1
+!s100 oOkR[O@NZXaBd``Hkzii63
+IRHA8gaXNjB9hDkeW@hmYY0
+R2
+R0
+w1553517548
+8C:/Temp/QuartusProjects/207/ClockDivider/DtypeFF.v
+FC:/Temp/QuartusProjects/207/ClockDivider/DtypeFF.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/207/ClockDivider/DtypeFF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/207/ClockDivider|C:/Temp/QuartusProjects/207/ClockDivider/DtypeFF.v|
+!i113 1
+R5
+R6
+R7
+n@dtype@f@f
+vfourBitMux
+R8
+!i10b 1
+!s100 fSGigjZkU7Fb8hJ@FkCJ52
+Izag>TUW[XIJNbIJjUQ6n<3
+R2
+R0
+w1553516150
+8C:/Temp/QuartusProjects/207/ClockDivider/fourBitMux.v
+FC:/Temp/QuartusProjects/207/ClockDivider/fourBitMux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/207/ClockDivider/fourBitMux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/207/ClockDivider|C:/Temp/QuartusProjects/207/ClockDivider/fourBitMux.v|
+!i113 1
+R5
+R6
+R7
+nfour@bit@mux

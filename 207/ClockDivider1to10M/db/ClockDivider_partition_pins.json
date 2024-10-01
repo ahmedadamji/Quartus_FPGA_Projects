@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "clkout",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "n[0]",
+					"strict" : false
+				},
+				{
+					"name" : "n[1]",
+					"strict" : false
+				},
+				{
+					"name" : "n[2]",
+					"strict" : false
+				},
+				{
+					"name" : "n[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

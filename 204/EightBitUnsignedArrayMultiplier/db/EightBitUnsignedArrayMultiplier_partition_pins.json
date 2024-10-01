@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "mul[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[6]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[8]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[9]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[10]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[11]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[12]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[13]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[14]",
+					"strict" : false
+				},
+				{
+					"name" : "mul[15]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[0]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[0]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[1]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[1]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[2]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[2]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[3]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[3]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[4]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[4]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[5]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[5]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[6]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[6]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[7]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

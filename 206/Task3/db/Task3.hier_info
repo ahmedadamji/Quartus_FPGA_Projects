@@ -1,0 +1,119 @@
+|Task3
+B3 => B3.IN1
+B2 => B2.IN1
+B1 => B1.IN1
+B0 => B0.IN1
+num[0] << Task2:bcdtossgd0.port4
+num[1] << Task2:bcdtossgd0.port4
+num[2] << Task2:bcdtossgd0.port4
+num[3] << Task2:bcdtossgd0.port4
+num[4] << Task2:bcdtossgd0.port4
+num[5] << Task2:bcdtossgd0.port4
+num[6] << Task2:bcdtossgd0.port4
+num[7] << Task2:bcdtossgd1.port4
+num[8] << Task2:bcdtossgd1.port4
+num[9] << Task2:bcdtossgd1.port4
+num[10] << Task2:bcdtossgd1.port4
+num[11] << Task2:bcdtossgd1.port4
+num[12] << Task2:bcdtossgd1.port4
+num[13] << Task2:bcdtossgd1.port4
+
+
+|Task3|Task1:bintobcd
+A => BCD.IN0
+A => BCD.IN0
+A => BCD.IN0
+A => BCD.IN0
+A => BCD.IN0
+B => BCD.IN1
+B => BCD.IN0
+B => BCD.IN1
+B => BCD.IN1
+C => BCD.IN1
+C => BCD.IN1
+C => BCD.IN1
+C => BCD.IN1
+C => BCD.IN1
+D => BCD[0].DATAIN
+BCD[0] <= D.DB_MAX_OUTPUT_PORT_TYPE
+BCD[1] <= BCD.DB_MAX_OUTPUT_PORT_TYPE
+BCD[2] <= BCD.DB_MAX_OUTPUT_PORT_TYPE
+BCD[3] <= BCD.DB_MAX_OUTPUT_PORT_TYPE
+BCD[4] <= BCD.DB_MAX_OUTPUT_PORT_TYPE
+BCD[5] <= <GND>
+BCD[6] <= <GND>
+BCD[7] <= <GND>
+
+
+|Task3|Task2:bcdtossgd0
+A => ssgd.IN1
+A => ssgd.IN1
+A => ssgd.IN1
+A => ssgd.IN1
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN1
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+ssgd[0] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[1] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[2] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[3] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[4] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[5] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[6] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Task3|Task2:bcdtossgd1
+A => ssgd.IN1
+A => ssgd.IN1
+A => ssgd.IN1
+A => ssgd.IN1
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN1
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+ssgd[0] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[1] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[2] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[3] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[4] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[5] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[6] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/simulation/modelsim
+vArrayCell
+Z1 !s110 1550832226
+!i10b 1
+!s100 `EaWUnBRcS8=[z]LZbLhA1
+IP<TMh8i;BikIj55WHf?LE0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1550315753
+8C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/ArrayCell.v
+FC:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/ArrayCell.v
+L0 22
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1550832226.000000
+!s107 C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/ArrayCell.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier|C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/ArrayCell.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier
+Z7 tCvgOpt 0
+n@array@cell
+vEightBitUnsignedArrayMultiplier
+R1
+!i10b 1
+!s100 L_]Y>_FBEEJEPfdT3OaUQ0
+I9Ej[glhDNA7_V[Kc6]zSh2
+R2
+R0
+w1550410838
+8C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier.v
+FC:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier|C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier.v|
+!i113 1
+R5
+R6
+R7
+n@eight@bit@unsigned@array@multiplier
+vEightBitUnsignedArrayMultiplier_tb
+R1
+!i10b 1
+!s100 DWheIG9GX;`>R[0O?i@fj3
+I^mjB^26CA_;B?Re]HMQ]N3
+R2
+R0
+w1550491041
+8C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier_tb.v
+FC:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier|C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/EightBitUnsignedArrayMultiplier_tb.v|
+!i113 1
+R5
+R6
+R7
+n@eight@bit@unsigned@array@multiplier_tb
+vOneBitFullAdder
+R1
+!i10b 1
+!s100 o>HDeJC6F2EMnh_BbHec12
+IQ5A]S>^2DPNKc>J5GQ]^E2
+R2
+R0
+w1549729905
+8C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/OneBitFullAdder.v
+FC:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/OneBitFullAdder.v
+L0 21
+R3
+r1
+!s85 0
+31
+!s108 1550832225.000000
+!s107 C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/OneBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier|C:/Temp/QuartusProjects/204/EightBitUnsignedArrayMultiplier/OneBitFullAdder.v|
+!i113 1
+R5
+R6
+R7
+n@one@bit@full@adder

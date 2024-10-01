@@ -1,0 +1,36 @@
+|Task2
+A => ssgd.IN1
+A => ssgd.IN1
+A => ssgd.IN1
+A => ssgd.IN1
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN1
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+ssgd[0] << ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[1] << ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[2] << ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[3] << ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[4] << ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[5] << ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[6] << ssgd.DB_MAX_OUTPUT_PORT_TYPE
+
+

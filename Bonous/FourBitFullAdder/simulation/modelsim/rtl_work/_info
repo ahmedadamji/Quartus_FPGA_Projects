@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/simulation/modelsim
+vFourBitFullAdder
+Z1 !s110 1556445906
+!i10b 1
+!s100 o`kT14Rj<?_1HS5_^bb2;2
+I@M4iX302@D[YkVOb0BGNo2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1556445325
+8C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/FourBitFullAdder.v
+FC:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/FourBitFullAdder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1556445906.000000
+!s107 C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/FourBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder|C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/FourBitFullAdder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder}
+Z7 tCvgOpt 0
+n@four@bit@full@adder
+vFourBitFullAdder_tb
+R1
+!i10b 1
+!s100 D@MBTTzTln^n7<;B[W9@B2
+I93D`_A6D4^cBSlOG;EnlW0
+R2
+R0
+w1556445835
+8C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/FourBitFullAdder_tb.v
+FC:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/FourBitFullAdder_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/FourBitFullAdder_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder|C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/FourBitFullAdder_tb.v|
+!i113 1
+R5
+R6
+R7
+n@four@bit@full@adder_tb
+vOneBitFullAdder
+R1
+!i10b 1
+!s100 mnARUL0;MB13@1WdXKdMi0
+I4QLCTAN@faCcR3V[0f62Q1
+R2
+R0
+w1556444689
+8C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/OneBitFullAdder.v
+FC:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/OneBitFullAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/OneBitFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder|C:/Temp/QuartusProjects/Bonous Lab/FourBitFullAdder/OneBitFullAdder.v|
+!i113 1
+R5
+R6
+R7
+n@one@bit@full@adder

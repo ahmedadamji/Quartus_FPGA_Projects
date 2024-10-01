@@ -1,0 +1,431 @@
+|ClktoSsgd
+clk => clk.IN1
+n[0] => n[0].IN1
+n[1] => n[1].IN1
+rst_n => rst_n.IN2
+num[0] << Task3:c.num
+num[1] << Task3:c.num
+num[2] << Task3:c.num
+num[3] << Task3:c.num
+num[4] << Task3:c.num
+num[5] << Task3:c.num
+num[6] << Task3:c.num
+num[7] << Task3:c.num
+num[8] << Task3:c.num
+num[9] << Task3:c.num
+num[10] << Task3:c.num
+num[11] << Task3:c.num
+num[12] << Task3:c.num
+num[13] << Task3:c.num
+
+
+|ClktoSsgd|ClockDivider:a
+clk => clk.IN1
+n[0] => n[0].IN1
+n[1] => n[1].IN1
+rst_n => rst_n.IN25
+clkout <= fourBitMux:select.x
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:a
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:b
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:c
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:d
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:e
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:f
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:g
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:h
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:i
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:j
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:k
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:l
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:m
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:nn
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:o
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:p
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:q
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:r
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:s
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:t
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:u
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:v
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:w
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:x
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|DtypeFF:y
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+D => Q~reg0.DATAIN
+rst_n => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|ClockDivider:a|fourBitMux:select
+a[0] => Mux0.IN3
+a[1] => Mux0.IN2
+a[2] => Mux0.IN1
+a[3] => Mux0.IN0
+sel[0] => Mux0.IN5
+sel[1] => Mux0.IN4
+x <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|FourBitBinaryCounter:b
+clk => clk.IN4
+en => en.IN4
+rst_n => rst_n.IN4
+J => J.IN1
+K => K.IN1
+count[0] <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= JKTypeFF:b.Q
+count[2] <= JKTypeFF:c.Q
+count[3] <= JKTypeFF:d.Q
+
+
+|ClktoSsgd|FourBitBinaryCounter:b|JKTypeFF:a
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+rst_n => Q~reg0.ACLR
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|FourBitBinaryCounter:b|JKTypeFF:b
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+rst_n => Q~reg0.ACLR
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|FourBitBinaryCounter:b|JKTypeFF:c
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+rst_n => Q~reg0.ACLR
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|FourBitBinaryCounter:b|JKTypeFF:d
+clk => Q~reg0.CLK
+en => Q~reg0.ENA
+rst_n => Q~reg0.ACLR
+J => Mux0.IN3
+K => Mux0.IN4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|Task3:c
+B3 => B3.IN1
+B2 => B2.IN1
+B1 => B1.IN1
+B0 => B0.IN1
+num[0] <= Task2:bcdtossgd0.port4
+num[1] <= Task2:bcdtossgd0.port4
+num[2] <= Task2:bcdtossgd0.port4
+num[3] <= Task2:bcdtossgd0.port4
+num[4] <= Task2:bcdtossgd0.port4
+num[5] <= Task2:bcdtossgd0.port4
+num[6] <= Task2:bcdtossgd0.port4
+num[7] <= Task2:bcdtossgd1.port4
+num[8] <= Task2:bcdtossgd1.port4
+num[9] <= Task2:bcdtossgd1.port4
+num[10] <= Task2:bcdtossgd1.port4
+num[11] <= Task2:bcdtossgd1.port4
+num[12] <= Task2:bcdtossgd1.port4
+num[13] <= Task2:bcdtossgd1.port4
+
+
+|ClktoSsgd|Task3:c|Task1:bintobcd
+D => BCD[0].DATAIN
+C => BCD.IN0
+C => BCD.IN0
+C => BCD.IN0
+C => BCD.IN1
+C => BCD.IN1
+B => BCD.IN0
+B => BCD.IN1
+B => BCD.IN0
+B => BCD.IN0
+A => BCD.IN1
+A => BCD.IN1
+A => BCD.IN1
+A => BCD.IN1
+A => BCD.IN1
+BCD[0] <= D.DB_MAX_OUTPUT_PORT_TYPE
+BCD[1] <= BCD.DB_MAX_OUTPUT_PORT_TYPE
+BCD[2] <= BCD.DB_MAX_OUTPUT_PORT_TYPE
+BCD[3] <= BCD.DB_MAX_OUTPUT_PORT_TYPE
+BCD[4] <= BCD.DB_MAX_OUTPUT_PORT_TYPE
+BCD[5] <= <GND>
+BCD[6] <= <GND>
+BCD[7] <= <GND>
+
+
+|ClktoSsgd|Task3:c|Task2:bcdtossgd0
+A => ssgd.IN1
+A => ssgd.IN1
+A => ssgd.IN1
+A => ssgd.IN1
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN1
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+ssgd[0] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[1] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[2] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[3] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[4] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[5] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[6] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ClktoSsgd|Task3:c|Task2:bcdtossgd1
+A => ssgd.IN1
+A => ssgd.IN1
+A => ssgd.IN1
+A => ssgd.IN1
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN0
+B => ssgd.IN1
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+C => ssgd.IN0
+C => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+D => ssgd.IN1
+ssgd[0] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[1] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[2] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[3] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[4] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[5] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+ssgd[6] <= ssgd.DB_MAX_OUTPUT_PORT_TYPE
+
+

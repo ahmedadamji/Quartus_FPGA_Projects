@@ -1,0 +1,576 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do FourBitFullAdder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/203/FourBitFullAdder {C:/Temp/QuartusProjects/203/FourBitFullAdder/OneBitFullAdder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:54:06 on Apr 08,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Temp/QuartusProjects/203/FourBitFullAdder" C:/Temp/QuartusProjects/203/FourBitFullAdder/OneBitFullAdder.v 
+# -- Compiling module OneBitFullAdder
+# 
+# Top level modules:
+# 	OneBitFullAdder
+# End time: 20:54:06 on Apr 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/203/FourBitFullAdder {C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:54:06 on Apr 08,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Temp/QuartusProjects/203/FourBitFullAdder" C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder.v 
+# -- Compiling module FourBitFullAdder
+# 
+# Top level modules:
+# 	FourBitFullAdder
+# End time: 20:54:06 on Apr 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Temp/QuartusProjects/203/FourBitFullAdder {C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:54:06 on Apr 08,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Temp/QuartusProjects/203/FourBitFullAdder" C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder_tb.v 
+# -- Compiling module FourBitFullAdder_tb
+# 
+# Top level modules:
+# 	FourBitFullAdder_tb
+# End time: 20:54:06 on Apr 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  FourBitFullAdder_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" FourBitFullAdder_tb 
+# Start time: 20:54:06 on Apr 08,2019
+# Loading work.FourBitFullAdder_tb
+# Loading work.FourBitFullAdder
+# Loading work.OneBitFullAdder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Testing C_IN = 0
+# Expected =           0 Actual =           0
+# Expected =           1 Actual =           1
+# Expected =           2 Actual =           2
+# Expected =           3 Actual =           3
+# Expected =           4 Actual =           4
+# Expected =           5 Actual =           5
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =           1 Actual =           1
+# Expected =           2 Actual =           2
+# Expected =           3 Actual =           3
+# Expected =           4 Actual =           4
+# Expected =           5 Actual =           5
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =           2 Actual =           2
+# Expected =           3 Actual =           3
+# Expected =           4 Actual =           4
+# Expected =           5 Actual =           5
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =           3 Actual =           3
+# Expected =           4 Actual =           4
+# Expected =           5 Actual =           5
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =           4 Actual =           4
+# Expected =           5 Actual =           5
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =           5 Actual =           5
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          26 Actual =          26
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          26 Actual =          26
+# Expected =          27 Actual =          27
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          26 Actual =          26
+# Expected =          27 Actual =          27
+# Expected =          28 Actual =          28
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          26 Actual =          26
+# Expected =          27 Actual =          27
+# Expected =          28 Actual =          28
+# Expected =          29 Actual =          29
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          26 Actual =          26
+# Expected =          27 Actual =          27
+# Expected =          28 Actual =          28
+# Expected =          29 Actual =          29
+# Expected =          30 Actual =          30
+# Testing C_IN = 1
+# Expected =           1 Actual =           1
+# Expected =           2 Actual =           2
+# Expected =           3 Actual =           3
+# Expected =           4 Actual =           4
+# Expected =           5 Actual =           5
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =           2 Actual =           2
+# Expected =           3 Actual =           3
+# Expected =           4 Actual =           4
+# Expected =           5 Actual =           5
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =           3 Actual =           3
+# Expected =           4 Actual =           4
+# Expected =           5 Actual =           5
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =           4 Actual =           4
+# Expected =           5 Actual =           5
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =           5 Actual =           5
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =           6 Actual =           6
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =           7 Actual =           7
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =           8 Actual =           8
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =           9 Actual =           9
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          10 Actual =          10
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          11 Actual =          11
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          26 Actual =          26
+# Expected =          12 Actual =          12
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          26 Actual =          26
+# Expected =          27 Actual =          27
+# Expected =          13 Actual =          13
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          26 Actual =          26
+# Expected =          27 Actual =          27
+# Expected =          28 Actual =          28
+# Expected =          14 Actual =          14
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          26 Actual =          26
+# Expected =          27 Actual =          27
+# Expected =          28 Actual =          28
+# Expected =          29 Actual =          29
+# Expected =          15 Actual =          15
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          26 Actual =          26
+# Expected =          27 Actual =          27
+# Expected =          28 Actual =          28
+# Expected =          29 Actual =          29
+# Expected =          30 Actual =          30
+# Expected =          16 Actual =          16
+# Expected =          17 Actual =          17
+# Expected =          18 Actual =          18
+# Expected =          19 Actual =          19
+# Expected =          20 Actual =          20
+# Expected =          21 Actual =          21
+# Expected =          22 Actual =          22
+# Expected =          23 Actual =          23
+# Expected =          24 Actual =          24
+# Expected =          25 Actual =          25
+# Expected =          26 Actual =          26
+# Expected =          27 Actual =          27
+# Expected =          28 Actual =          28
+# Expected =          29 Actual =          29
+# Expected =          30 Actual =          30
+# Expected =          31 Actual =          31
+# ** Note: $stop    : C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder_tb.v(65)
+#    Time: 5120 ns  Iteration: 0  Instance: /FourBitFullAdder_tb
+# Break in Module FourBitFullAdder_tb at C:/Temp/QuartusProjects/203/FourBitFullAdder/FourBitFullAdder_tb.v line 65
+# End time: 21:08:55 on Apr 08,2019, Elapsed time: 0:14:49
+# Errors: 0, Warnings: 0
